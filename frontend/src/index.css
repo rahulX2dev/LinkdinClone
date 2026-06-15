@@ -1,0 +1,34 @@
+* { box-sizing: border-box; }
+body {
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  padding: 0;
+  background: #f6f7fb;
+  color: #111;
+}
+input, button {
+  font: inherit;
+}
+.container {
+  max-width: 720px;
+  margin: 28px auto;
+  padding: 18px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(12,24,64,0.06);
+}
+form > div { margin-bottom: 12px; }
+label { display: block; font-size: 13px; margin-bottom: 6px; color: #333; }
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%; padding: 10px 12px; border-radius: 6px; border: 1px solid #d8dbe6;
+}
+button {
+  padding: 10px 14px; border: none; border-radius: 8px; cursor: pointer;
+  background: #2563eb; color: white;
+}
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+.nav { display:flex; gap:12px; padding:12px; background:#fff; border-bottom:1px solid #eee; }
+a { color: #2563eb; text-decoration: none; }
+.small-muted { color:#666; font-size:13px; }
+.error { color: #b00020; font-size: 13px; }
+.success { color: #0b8a3e; font-size: 13px; }
